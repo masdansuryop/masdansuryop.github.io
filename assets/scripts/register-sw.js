@@ -31,8 +31,7 @@ function requestPermission() {
                 return
             }
 
-            const publicKey = 'BFaI7FlKkf63PW8Mb85DFmUKuz8Mc35ymoNa9_t4gKF2GMOuuwatmsWimo71i1smzGeOQ-q2irNujAtU_dsacOI'
-            const privateKey = 'Bxy_b1sluTL9a0HbcLY1hHuuH4NIY2sePrVMWkYcIgM'
+            const publicKey = 'BBws8JyKhZXQl4-RItR7GBmr_JOR7mxAHy9KmxnsFtc493zZ3mL-te77VKfbNpWyWfxOogbjrUveI1eVzDy3_kk'
 
             navigator.serviceWorker.ready.then(() => {
                 if (('PushManager' in window)) {

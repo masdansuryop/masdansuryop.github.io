@@ -9,9 +9,6 @@
   "author": "Masdan Suryo Purmadianto",
   "license": "ISC",
   "dependencies": {
-    "jquery": "^3.5.1",
-    "materialize-css": "^1.0.0",
-    "moment": "^2.29.1",
     "web-push": "^3.4.4"
   }
 }
