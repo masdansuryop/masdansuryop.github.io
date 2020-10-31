@@ -1,0 +1,35 @@
+{
+    "short_name": "PL",
+    "name": "Premier League",
+    "lang": "en",
+    "description": "Submission 3 MPWA - Dicoding",
+    "start_url": "/index.html",
+    "background_color": "#389393",
+    "theme_color": "#389393",
+    "dir": "ltr",
+    "display": "standalone",
+    "orientation": "any",
+    "icons": [{
+        "src": "/assets/img/icon/icon-192x192.png",
+        "type": "image/png",
+        "sizes": "192x192",
+        "purpose": "any"
+    }, {
+        "src": "/assets/img/icon/icon-192x192.png",
+        "type": "image/png",
+        "sizes": "512x512",
+        "purpose": "any"
+    }, {
+        "src": "/assets/img/icon/favicon-96x96.png",
+        "type": "image/png",
+        "sizes": "96x96",
+        "purpose": "any"
+    }, {
+        "src": "/assets/img/icon/maskable_icon.png",
+        "type": "image/png",
+        "sizes": "512x512",
+        "purpose": "maskable"
+    }],
+    "prefer_related_applications": false,
+    "gcm_sender_id": "210950075655"
+}

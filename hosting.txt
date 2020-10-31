@@ -1,0 +1,7 @@
+Firebase Hosting :
+premier-league-6e283.web.app
+premier-league-6e283.firebaseapp.com
+
+Github Pages :
+https://masdansuryop.github.io/
+https://github.com/masdansuryop/masdansuryop.github.io

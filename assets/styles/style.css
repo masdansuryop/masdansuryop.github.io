@@ -1,0 +1,313 @@
+* {
+    box-sizing: border-box !important;
+}
+
+body {
+    font-family: 'Roboto', 'Open Sans', sans-serif;
+}
+
+.main-color {
+    background-color: #389393 !important;
+}
+
+.navy-color {
+    background-color: #37003c !important;
+}
+
+.pink-color {
+    background-color: #fa7f72 !important;
+}
+
+.orange-color {
+    background-color: #f5a25d !important;
+}
+
+.white-color {
+    background-color: #ebebeb !important;
+}
+
+.preloader-background {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #eee;
+
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.preloader-logo {
+    width: 50px;
+    position: fixed;
+    align-items: center;
+}
+
+.logo img {
+    width: 64px;
+    background-color: white;
+    border-radius: 50px;
+    padding: 5px;
+    margin-right: 20px;
+}
+
+a {
+    color: white !important;
+}
+
+.topnav a {
+    color: white !important;
+}
+
+.topnav a:hover,
+.topnav .menu-active {
+    border-bottom: 3px solid #fa7f72;
+}
+
+nav {
+    margin-bottom: 20px;
+    border-bottom: 3px solid #389393;
+}
+
+.sidenav a {
+    color: #37003c !important;
+}
+
+.sidenav a:hover,
+.sidenav .menu-active {
+    color: #fa7f72 !important;
+    border-right: 3px solid #fa7f72;
+}
+
+.sidenav-logo {
+    margin-top: 20px;
+}
+
+.sidenav-logo img {
+    width: 80px;
+}
+
+.card {
+    padding: 10px;
+}
+
+.match-card {
+    overflow: auto;
+    border-left: 3px solid #389393;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.match-card:hover {
+    background-color: #ebebeb;
+    border-left: 3px solid #fa7f72;
+}
+
+.match-card .card-content {
+    overflow: auto;
+}
+
+.game-week {
+    font-size: 12px;
+    color: #fa7f72;
+}
+
+.match-date {
+    margin-bottom: 20px;
+}
+
+.team-name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.team-logo {
+    padding: 0 !important;
+    margin: 0;
+}
+
+.team-logo img {
+    height: 50px;
+}
+
+.time-score {
+    padding: 5px 0 !important;
+    background-color: #ebebeb;
+}
+
+.time-score span {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.time-info {
+    font-size: 10px;
+}
+
+#standings tr:hover {
+    background-color: #ebebeb;
+    border-left: 2px solid #389393;
+}
+
+.club-card {
+    border-top: 3px solid #389393;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 20px 0 0;
+}
+
+.club-card:hover {
+    background-color: #ebebeb;
+    border-top: 3px solid #fa7f72;
+}
+
+.club-content .card-image {
+    text-align: center !important;
+}
+
+.club-content .card-image img {
+    width: auto;
+    height: 80px;
+    display: unset !important;
+}
+
+.club-content {
+    cursor: pointer;
+}
+
+.club-card .card-content {
+    height: 100px;
+    padding: 10px;
+}
+
+.club-card .card-action {
+    margin: 0 !important;
+    padding: 10px 0 !important;
+    color: black !important;
+    border-bottom-left-radius: 20px !important;
+    border-bottom-right-radius: 20px !important;
+    cursor: pointer;
+}
+
+.club-card .favorite:hover {
+    color: white !important;
+    background-color: #ffa000 !important;
+}
+
+.club-card .delete-favorite-club:hover {
+    color: white !important;
+    background-color: #585858 !important;
+}
+
+.page-footer {
+    padding: 0;
+}
+
+#club-header {
+    margin: 50px 0;
+    overflow: hidden;
+}
+
+#club-header .page-title img {
+    height: 150px;
+}
+
+.card-logo {
+    border-right: 3px solid #37003c;
+}
+
+.card-information p {
+    margin: 0;
+}
+
+@media only screen and (max-width: 992px) {}
+
+@media only screen and (min-width:600px) {
+    .club-content .card-content .card-title {
+        font-size: 18px;
+    }
+
+    .team-name {
+        height: 50px !important;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .brand-logo {
+        font-size: 1.5rem !important;
+    }
+
+    .page-title h3,
+    .page-title h4,
+    .page-title h5 {
+        font-size: 2rem;
+    }
+
+    .match-card .card-content {
+        padding: 5px !important;
+    }
+
+    .team-name {
+        height: 30px !important;
+    }
+
+    .team-logo img {
+        height: 30px;
+    }
+
+    .time-score {
+        padding: 0 !important;
+    }
+
+    .time-score span {
+        font-size: 18px;
+    }
+
+    .club-content .card-image img {
+        height: 50px;
+    }
+
+    .club-card .card-content {
+        height: 80px;
+    }
+
+    .club-content .card-content .card-title {
+        font-size: 18px;
+        margin-bottom: 0;
+    }
+
+    .club-content .card-content p {
+        font-size: 12px;
+        /* line-height: 1.5; */
+    }
+
+    .club-card .card-action {
+        padding: 5px 0 !important;
+    }
+
+    .footer-copyright {
+        font-size: 12px;
+    }
+
+    #club-header {
+        margin: 30px 0;
+        overflow: hidden;
+    }
+
+    #club-header .page-title img {
+        height: 150px;
+        border-bottom: 3px solid #37003c;
+        padding-bottom: 30px;
+    }
+
+    .card-logo {
+        border-right: none;
+    }
+}
